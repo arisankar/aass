@@ -5,3 +5,6 @@ def test_func1():
 @pytest.mark.smoke
 def test_func2():
     print("hi")
+
+
+    branch
