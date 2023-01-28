@@ -56,6 +56,7 @@ def test_NewCustomer():
     s= driver.find_element(By.XPATH, '//table[@id="customer"]')
     print(s.text)
 
+
 @pytest.mark.Newaccount
 def test_NewAccount():
     #clicking on New Account from left pane
